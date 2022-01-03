@@ -1,0 +1,254 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #657DBE;
+  width: 100%;
+  height: 100%;
+}
+
+.topnav {
+  overflow:hidden;
+  position: relative;
+  width: 100%;
+  height: 13%;
+  background-color: white;
+}
+
+.image{
+  position: absolute;
+  top: 5px;
+}
+
+.image img{
+  width: 85%;
+  height: 85%;
+}
+
+.title{
+  position: absolute;
+  left: 10%;
+  top: 17%;
+
+}
+
+.title p{
+  font-family: Georgia, serif;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  word-spacing: 1.8px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+
+.login-form {
+  width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	text-align: center;
+	border-radius: 15px;
+}
+
+.info-aluno {
+  position: absolute;
+  display:table-row;
+  left: 66%;
+  top: 22%;
+}
+
+.info-aluno p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  letter-spacing: 2.2px;
+  word-spacing: 1.8px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+
+.nome-aluno-div{
+  position: relative;
+  float: left;
+}
+
+.num-aluno-div{
+  position: relative;
+  float: left;
+  padding-left: 20px;
+}
+
+.turma-aluno-div{
+  position: relative;
+  float: left;
+  padding-left: 20px;
+}
+
+.menu{
+  width: 100%;
+  height: 87%;
+  position: absolute;
+}
+
+.menu p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2.2px;
+  word-spacing: 1.8px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  padding-top: 50px;
+}
+
+.menu-1, .menu-2, .menu-3{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  float: left;
+	background: #fff;
+  padding: 30px;
+  top: 20%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.menu-1{
+  left: 16%;
+}
+
+.menu-1:hover{
+  background: #d3d3d3;
+}
+
+.menu-2{
+  left: 22%;
+}
+
+.menu-2:hover{
+  background: #d3d3d3;
+}
+
+.menu-3{
+  left: 28%;
+}
+
+.menu-3:hover{
+  background: #d3d3d3;
+}
+
+.tg-wrap{
+  left: 50%;
+}
+
+/* Full-width inputs*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+ /*Set a style for all buttons*/
+button {
+  background-color: #005D98;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*Add a hover effect for buttons*/
+button:hover {
+  opacity: 0.8;
+}
+
+/*Add padding to containers*/
+.container {
+  padding: 16px;
+}
+
+/*The "Forgot password" text
+span.psw {
+  float: right;
+}*/
+
+
+.tg-wrap {
+  position:absolute;
+  left: 38%;
+  top: 30%;
+}
+
+.tg {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+.tg td{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial,
+  sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.tg th{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg .tg-38jg{
+  position:-webkit-sticky;
+  position:sticky;
+  text-align:center;
+  top:-1px;
+  vertical-align:middle;
+}
+.tg .tg-nrix{
+  text-align:center;
+  vertical-align:middle
+}
+
+@media screen and (max-width: 767px) {
+  .tg {
+    width: auto !important;
+  }
+  .tg col {
+    width: auto !important;
+  }
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
